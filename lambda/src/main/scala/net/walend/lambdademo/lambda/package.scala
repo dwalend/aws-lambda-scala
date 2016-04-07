@@ -9,6 +9,12 @@ package net.walend.lambdademo
   * /user/ID/noEdge GET - return a list of all IDs with no relationship to the user
   * /edges GET - return a list of all relationships
   *
+  * User lists are [{"name" : "yourName","id" : "3"} ...]
+  *
+  * Edges are {"from" : "3", "to" : "5" , "text" : "words" }
+  *
+  * and a list of edges is [ {"from" : "3", "to" : "5" , "text" : "words" } ... ]
+  *
   *
   * 634303334930 - AWS account number
   *
