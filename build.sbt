@@ -11,12 +11,15 @@ sbtVersion := "0.13.9"
 
 lazy val root: Project = Project(
   id        = "root",            
-  base      = file("."),         
-  aggregate = Seq(protocol, lambda, client)
-)                                                                                                                     
+  base      = file("."),
+//  aggregate = Seq(protocol, lambda, client)
+    aggregate = Seq(lambda)
+)
 
-lazy val protocol = project
+//lazy val protocol = project
 
-lazy val lambda = project.dependsOn(protocol)
+//lazy val lambda = project.dependsOn(protocol)
 
-lazy val client = project.dependsOn(protocol)
+lazy val lambda = project
+
+//lazy val client = project.dependsOn(protocol)

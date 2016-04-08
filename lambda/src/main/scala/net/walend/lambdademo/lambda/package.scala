@@ -20,6 +20,10 @@ package net.walend.lambdademo
   *
   * https://634303334930.signin.aws.amazon.com/console/
   *
+  * or
+  *
+  * https://walend-net.signin.aws.amazon.com/console/
+  *
   * @author dwalend
   * @since v0.0.0
   */
