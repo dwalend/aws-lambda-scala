@@ -23,3 +23,6 @@ lazy val root: Project = Project(
 lazy val lambda = project
 
 //lazy val client = project.dependsOn(protocol)
+
+retrieveManaged := true
+
